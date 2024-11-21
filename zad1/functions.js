@@ -1,14 +1,11 @@
 function isOdd(x) {
-    if (x % 2 != 0) return true;
-    else return false;
-
+    return x % 2 != 0;
 }
 
 const isEven = (x) => {
-    if (x % 2 == 0) return true;
-    else return false;
+    return x % 2 == 0;
 }
 
 let num = 20;
-console.log(isOdd(num));
+console.log(isOdd(num))
 console.log(isEven(num));
